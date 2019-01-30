@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: online.devliving:securedpreferencestore:0.3.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/securedpreferencestore-0.3.1.aar/6739a3cf31d3b6e78e45fb0ac91bc668/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/securedpreferencestore-0.3.1.aar/6739a3cf31d3b6e78e45fb0ac91bc668/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/online.devliving/securedpreferencestore/0.3.1/5f1fb3e63263f3ee649e8977fe02671de6707fb7/securedpreferencestore-0.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

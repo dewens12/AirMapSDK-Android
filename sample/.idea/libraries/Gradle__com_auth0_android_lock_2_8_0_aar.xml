@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.auth0.android:lock:2.8.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lock-2.8.0.aar/2d88b42b942a182a893a79c25f3b27a6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lock-2.8.0.aar/85923ba8c319d0847da159a8b9afdbbd/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lock-2.8.0.aar/2d88b42b942a182a893a79c25f3b27a6/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lock-2.8.0.aar/2d88b42b942a182a893a79c25f3b27a6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lock-2.8.0.aar/85923ba8c319d0847da159a8b9afdbbd/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lock-2.8.0.aar/85923ba8c319d0847da159a8b9afdbbd/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

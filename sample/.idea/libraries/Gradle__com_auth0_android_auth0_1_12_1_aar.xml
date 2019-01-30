@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.auth0.android:auth0:1.12.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/auth0-1.12.1.aar/2b693b568a1d6c09d83871ccf04682ab/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/auth0-1.12.1.aar/38f58f803ca70ca5bd6125787d64a501/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/auth0-1.12.1.aar/2b693b568a1d6c09d83871ccf04682ab/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/auth0-1.12.1.aar/2b693b568a1d6c09d83871ccf04682ab/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/auth0-1.12.1.aar/38f58f803ca70ca5bd6125787d64a501/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/auth0-1.12.1.aar/38f58f803ca70ca5bd6125787d64a501/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

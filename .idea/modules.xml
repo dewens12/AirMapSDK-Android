@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AirMapSDK-Android.iml" filepath="$PROJECT_DIR$/AirMapSDK-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/AirMapSDK-Android-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/AirMapSDK-Android-sample.iml" group="AirMapSDK-Android/sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GitHub-AirMapSDK-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/GitHub-AirMapSDK-Android.iml" group="AirMapSDK-Android" />
       <module fileurl="file://$PROJECT_DIR$/airmapsdk/airmapsdk.iml" filepath="$PROJECT_DIR$/airmapsdk/airmapsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/airmapsdk/com.airmap.airmapsdk-airmapsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/airmapsdk/com.airmap.airmapsdk-airmapsdk.iml" group="AirMapSDK-Android/airmapsdk" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>
   </component>

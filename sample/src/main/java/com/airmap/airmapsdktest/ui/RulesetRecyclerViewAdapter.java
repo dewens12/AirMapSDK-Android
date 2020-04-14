@@ -1,14 +1,15 @@
 package com.airmap.airmapsdktest.ui;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import androidx.core.content.ContextCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.airmap.airmapsdk.Analytics;
 import com.airmap.airmapsdk.models.rules.AirMapRuleset;
@@ -306,8 +307,8 @@ public class RulesetRecyclerViewAdapter extends SectionedRecyclerViewAdapter<Rul
             super(itemView);
 
             selectorView = itemView.findViewById(R.id.selector_view);
-            nameTextView = (TextView) itemView.findViewById(R.id.rule_name_text_view);
-            infoButton = (ImageButton) itemView.findViewById(R.id.info_button);
+            nameTextView = itemView.findViewById(R.id.rule_name_text_view);
+            infoButton = itemView.findViewById(R.id.info_button);
         }
     }
 
@@ -318,8 +319,8 @@ public class RulesetRecyclerViewAdapter extends SectionedRecyclerViewAdapter<Rul
         HeaderViewHolder(View itemView) {
             super(itemView);
 
-            sectionTitleTextView = (TextView) itemView.findViewById(R.id.section_title_text_view);
-            sectionSubtitleTextView = (TextView) itemView.findViewById(R.id.section_subtitle_text_view);
+            sectionTitleTextView = itemView.findViewById(R.id.section_title_text_view);
+            sectionSubtitleTextView = itemView.findViewById(R.id.section_subtitle_text_view);
         }
     }
 

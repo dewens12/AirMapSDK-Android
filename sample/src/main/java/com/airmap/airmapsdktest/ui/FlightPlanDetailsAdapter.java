@@ -2,8 +2,6 @@ package com.airmap.airmapsdktest.ui;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -15,6 +13,9 @@ import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.airmap.airmapsdk.Analytics;
 import com.airmap.airmapsdk.models.AirMapBaseModel;
 import com.airmap.airmapsdk.models.flight.AirMapFlightFeature;
@@ -23,7 +24,6 @@ import com.airmap.airmapsdk.models.flight.FlightFeatureConfiguration;
 import com.airmap.airmapsdk.models.flight.FlightFeatureValue;
 import com.airmap.airmapsdk.models.rules.AirMapRule;
 import com.airmap.airmapsdk.ui.views.ToggleButton;
-import com.airmap.airmapsdk.util.Utils;
 import com.airmap.airmapsdktest.R;
 
 import java.util.ArrayList;

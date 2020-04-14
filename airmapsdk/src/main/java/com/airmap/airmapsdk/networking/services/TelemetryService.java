@@ -1,11 +1,10 @@
 package com.airmap.airmapsdk.networking.services;
 
-import android.support.annotation.Nullable;
-import android.support.v4.util.Pair;
+import androidx.annotation.Nullable;
+import androidx.core.util.Pair;
 
 import com.airmap.airmapsdk.models.Telemetry;
 import com.airmap.airmapsdk.models.comm.AirMapComm;
-import com.airmap.airmapsdk.models.flight.AirMapFlight;
 import com.google.protobuf.Message;
 
 import java.io.ByteArrayOutputStream;
@@ -134,7 +133,7 @@ public class TelemetryService extends BaseService {
                                         Timber.e(throwable, "getCommKey failed");
                                     }
                                 })
-                                .onErrorResumeNext(Observable.<AirMapComm>empty())
+                                .onErrorResumeNext(Observable.empty())
                                 .map(new Func1<AirMapComm, Session>() {
                                     @Override
                                     public Session call(AirMapComm airMapComm) {

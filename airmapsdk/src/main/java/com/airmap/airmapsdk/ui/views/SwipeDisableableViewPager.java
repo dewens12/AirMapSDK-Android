@@ -1,9 +1,10 @@
 package com.airmap.airmapsdk.ui.views;
 
 import android.content.Context;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * Prevent ViewPager from consuming any touch events when isPagingEnabled is false. This prevents

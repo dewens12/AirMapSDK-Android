@@ -1,6 +1,6 @@
 package com.airmap.airmapsdk.util;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import timber.log.Timber;
 

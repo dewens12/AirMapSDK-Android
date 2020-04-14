@@ -438,9 +438,7 @@ public class AirMapFlightPlan implements Serializable, AirMapBaseModel {
         if (flightFeatureValues == null) {
             flightFeatureValues = new HashMap<>();
         } else {
-            if (flightFeatureValues.containsKey(flightFeatureValue.getKey())) {
-                flightFeatureValues.remove(flightFeatureValue.getKey());
-            }
+            flightFeatureValues.remove(flightFeatureValue.getKey());
         }
 
         if (flightFeatureValue.getValue() != null) {

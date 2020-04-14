@@ -1,6 +1,6 @@
 package com.airmap.airmapsdk.models.status;
 
-import android.support.annotation.ColorRes;
+import androidx.annotation.ColorRes;
 
 import com.airmap.airmapsdk.R;
 import com.airmap.airmapsdk.models.AirMapBaseModel;

@@ -1,6 +1,6 @@
 package com.airmap.airmapsdk.models.map;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.mapbox.mapboxsdk.style.functions.Function;
 import com.mapbox.mapboxsdk.style.functions.stops.Stop;

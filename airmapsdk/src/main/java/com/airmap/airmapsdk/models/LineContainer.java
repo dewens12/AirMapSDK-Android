@@ -1,7 +1,8 @@
 package com.airmap.airmapsdk.models;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
+
+import androidx.core.content.ContextCompat;
 
 import com.airmap.airmapsdk.R;
 import com.airmap.airmapsdk.util.PointMath;

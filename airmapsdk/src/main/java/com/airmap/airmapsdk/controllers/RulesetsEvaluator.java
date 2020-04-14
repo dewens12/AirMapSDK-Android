@@ -1,6 +1,6 @@
 package com.airmap.airmapsdk.controllers;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.airmap.airmapsdk.models.rules.AirMapRuleset;
 import com.airmap.airmapsdk.ui.views.AirMapMapView;

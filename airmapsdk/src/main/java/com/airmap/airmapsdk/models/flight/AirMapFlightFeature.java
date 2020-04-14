@@ -1,10 +1,9 @@
 package com.airmap.airmapsdk.models.flight;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 
 import com.airmap.airmapsdk.R;
 import com.airmap.airmapsdk.models.AirMapBaseModel;
-import com.airmap.airmapsdk.models.rules.AirMapRule;
 
 import org.json.JSONObject;
 

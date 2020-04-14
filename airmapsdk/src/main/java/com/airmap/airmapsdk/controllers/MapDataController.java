@@ -2,8 +2,9 @@ package com.airmap.airmapsdk.controllers;
 
 import android.graphics.RectF;
 import android.os.Handler;
-import android.support.v4.util.Pair;
 import android.text.TextUtils;
+
+import androidx.core.util.Pair;
 
 import com.airmap.airmapsdk.AirMapException;
 import com.airmap.airmapsdk.models.Coordinate;

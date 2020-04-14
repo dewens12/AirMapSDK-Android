@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    android:id="@+id/main_content"
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/main_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true" >
+    android:fitsSystemWindows="true">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -33,14 +32,16 @@
             android:orientation="vertical"
             android:padding="4dp">
 
-            <android.support.v7.widget.CardView style="@style/CardView.Demo"
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Demo"
                 android:id="@+id/map_card_view">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView style="@style/CardImage"
+                    <ImageView
+                        style="@style/CardImage"
                         android:id="@+id/map_card_image"
                         android:src="@drawable/img_map" />
 
@@ -49,23 +50,26 @@
                         android:layout_toRightOf="@id/map_card_image"
                         android:text="Map &amp; Contextual Airspace" />
 
-                    <TextView style="@style/TextAppearance.Demo.Description"
+                    <TextView
+                        style="@style/TextAppearance.Demo.Description"
                         android:layout_below="@id/map_card_title"
                         android:layout_toRightOf="@id/map_card_image"
                         android:text="Show a map in your app with contextual airspace and rules" />
 
                 </RelativeLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView style="@style/CardView.Demo"
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Demo"
                 android:id="@+id/login_card_view">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView style="@style/CardImage"
+                    <ImageView
+                        style="@style/CardImage"
                         android:id="@+id/login_card_image"
                         android:src="@drawable/img_login" />
 
@@ -74,23 +78,26 @@
                         android:layout_toRightOf="@id/login_card_image"
                         android:text="Authentication" />
 
-                    <TextView style="@style/TextAppearance.Demo.Description"
+                    <TextView
+                        style="@style/TextAppearance.Demo.Description"
                         android:layout_below="@id/login_card_title"
                         android:layout_toRightOf="@id/login_card_image"
                         android:text="Sign up and Login with an AirMap account" />
 
                 </RelativeLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView style="@style/CardView.Demo"
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Demo"
                 android:id="@+id/anonymous_login_card_view">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView style="@style/CardImage"
+                    <ImageView
+                        style="@style/CardImage"
                         android:id="@+id/anonymous_login_card_image"
                         android:src="@drawable/img_anonymous_login" />
 
@@ -99,23 +106,26 @@
                         android:layout_toRightOf="@id/anonymous_login_card_image"
                         android:text="Anonymous Login" />
 
-                    <TextView style="@style/TextAppearance.Demo.Description"
+                    <TextView
+                        style="@style/TextAppearance.Demo.Description"
                         android:layout_below="@id/anonymous_login_card_title"
                         android:layout_toRightOf="@id/anonymous_login_card_image"
                         android:text="Use anonymous login to create flights, receive traffic and send telemetry easily" />
 
                 </RelativeLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView style="@style/CardView.Demo"
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Demo"
                 android:id="@+id/flight_plan_card_view">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView style="@style/CardImage"
+                    <ImageView
+                        style="@style/CardImage"
                         android:id="@+id/flight_plan_card_image"
                         android:src="@drawable/img_flight_plan" />
 
@@ -124,23 +134,26 @@
                         android:layout_toRightOf="@id/flight_plan_card_image"
                         android:text="Flight Plan" />
 
-                    <TextView style="@style/TextAppearance.Demo.Description"
+                    <TextView
+                        style="@style/TextAppearance.Demo.Description"
                         android:layout_below="@id/flight_plan_card_title"
                         android:layout_toRightOf="@id/flight_plan_card_image"
                         android:text="Create a flight plan including flight features from selected rules" />
 
                 </RelativeLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView style="@style/CardView.Demo"
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Demo"
                 android:id="@+id/briefing_card_view">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView style="@style/CardImage"
+                    <ImageView
+                        style="@style/CardImage"
                         android:id="@+id/briefing_card_image"
                         android:src="@drawable/img_brief" />
 
@@ -149,23 +162,26 @@
                         android:layout_toRightOf="@id/briefing_card_image"
                         android:text="Flight Brief" />
 
-                    <TextView style="@style/TextAppearance.Demo.Description"
+                    <TextView
+                        style="@style/TextAppearance.Demo.Description"
                         android:layout_below="@id/briefing_card_title"
                         android:layout_toRightOf="@id/briefing_card_image"
                         android:text="Get the briefing for a flight including weather, authorizations and rules" />
 
                 </RelativeLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView style="@style/CardView.Demo"
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Demo"
                 android:id="@+id/traffic_card_view">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView style="@style/CardImage"
+                    <ImageView
+                        style="@style/CardImage"
                         android:id="@+id/traffic_card_image"
                         android:src="@drawable/img_traffic" />
 
@@ -174,23 +190,26 @@
                         android:layout_toRightOf="@id/traffic_card_image"
                         android:text="Traffic" />
 
-                    <TextView style="@style/TextAppearance.Demo.Description"
+                    <TextView
+                        style="@style/TextAppearance.Demo.Description"
                         android:layout_below="@id/traffic_card_title"
                         android:layout_toRightOf="@id/traffic_card_image"
                         android:text="Get situational and traffic alerts for your flight" />
 
                 </RelativeLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView style="@style/CardView.Demo"
+            <androidx.cardview.widget.CardView
+                style="@style/CardView.Demo"
                 android:id="@+id/telemetry_card_view">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView style="@style/CardImage"
+                    <ImageView
+                        style="@style/CardImage"
                         android:id="@+id/telemetry_card_image"
                         android:src="@drawable/img_telemetry" />
 
@@ -199,17 +218,18 @@
                         android:layout_toRightOf="@id/telemetry_card_image"
                         android:text="Telemetry" />
 
-                    <TextView style="@style/TextAppearance.Demo.Description"
+                    <TextView
+                        style="@style/TextAppearance.Demo.Description"
                         android:layout_below="@id/telemetry_card_title"
                         android:layout_toRightOf="@id/telemetry_card_image"
                         android:text="Send telemetry from your flight including position, attitude, speed and barometer" />
 
                 </RelativeLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

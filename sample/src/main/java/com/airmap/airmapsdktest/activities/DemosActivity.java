@@ -3,10 +3,11 @@ package com.airmap.airmapsdktest.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 
 import com.airmap.airmapsdk.AirMapException;
 import com.airmap.airmapsdk.models.pilot.AirMapPilot;

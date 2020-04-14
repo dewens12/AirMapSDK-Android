@@ -3,10 +3,11 @@ package com.airmap.airmapsdktest.activities;
 import android.graphics.PointF;
 import android.graphics.RectF;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.widget.Toolbar;
 
 import com.airmap.airmapsdk.AirMapException;
 import com.airmap.airmapsdk.models.flight.AirMapFlight;

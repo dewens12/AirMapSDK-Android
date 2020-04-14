@@ -43,7 +43,7 @@ public class AirMapWeatherUpdate implements AirMapBaseModel, Serializable {
                 Wind wind = new Wind();
                 wind.setHeading(windJSON.optInt("heading"));
                 wind.setSpeed(windJSON.optInt("speed"));
-                wind.setGusting(windJSON.optInt("gusting"));;
+                wind.setGusting(windJSON.optInt("gusting"));
 
                 setWind(wind);
             }

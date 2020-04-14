@@ -1,6 +1,6 @@
 package com.airmap.airmapsdk.networking.services;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.airmap.airmapsdk.models.AirMapWeather;
 import com.airmap.airmapsdk.models.Coordinate;

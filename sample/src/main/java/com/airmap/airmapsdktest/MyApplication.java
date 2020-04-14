@@ -1,6 +1,6 @@
 package com.airmap.airmapsdktest;
 
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDexApplication;
 
 import com.airmap.airmapsdk.networking.services.AirMap;
 import com.airmap.airmapsdk.util.AirMapConfig;

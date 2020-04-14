@@ -1,7 +1,8 @@
 package com.airmap.airmapsdk.models.rules;
 
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
+
+import androidx.annotation.Nullable;
 
 import com.airmap.airmapsdk.models.AirMapBaseModel;
 

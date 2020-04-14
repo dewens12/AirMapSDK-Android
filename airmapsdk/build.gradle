@@ -64,14 +64,14 @@ dependencies {
     implementation 'io.reactivex:rxandroid:1.2.1'
     implementation 'com.googlecode.libphonenumber:libphonenumber:8.8.2'
     implementation 'online.devliving:securedpreferencestore:0.3.1' // Newer version available, but updating requires making some api changes within our code
-    compile 'com.auth0.android:lock:2.8.0'
-    compile 'com.auth0.android:auth0:1.12.1'
+    implementation 'com.auth0.android:lock:2.8.0'
+    implementation 'com.auth0.android:auth0:1.12.1'
 
     // other
-    compile 'com.squareup.okhttp3:okhttp:3.10.0'
-    compile 'com.jakewharton.timber:timber:4.6.0'
-    compile 'org.bitbucket.b_c:jose4j:0.6.1'
-    compile 'com.google.protobuf:protobuf-java:3.5.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.jakewharton.timber:timber:4.6.0'
+    implementation 'org.bitbucket.b_c:jose4j:0.6.1'
+    implementation 'com.google.protobuf:protobuf-java:3.5.0'
     compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0'
     compile 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
 }

@@ -60,10 +60,10 @@ dependencies {
     compile 'com.mapbox.mapboxsdk:mapbox-android-ui:2.2.10'
 
     // shared libraries
-    compile 'joda-time:joda-time:2.9.9'
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'com.googlecode.libphonenumber:libphonenumber:8.8.2'
-    compile 'online.devliving:securedpreferencestore:0.3.1' // Newer version available, but updating requires making some api changes within our code
+    implementation 'joda-time:joda-time:2.9.9'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'com.googlecode.libphonenumber:libphonenumber:8.8.2'
+    implementation 'online.devliving:securedpreferencestore:0.3.1' // Newer version available, but updating requires making some api changes within our code
     compile 'com.auth0.android:lock:2.8.0'
     compile 'com.auth0.android:auth0:1.12.1'
 
